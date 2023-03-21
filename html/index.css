@@ -10,28 +10,24 @@ body {
     background-size: cover;
     position: relative;
 }
-nav ul {
-    list-style: none;
+nav .nav-brand {
+    display: flexbox;
+    background-color: darkgrey;
+    font-size: large;
+    gap: 1px;
+}
+.logo{
+    background-color: cornsilk;
     margin: 0;
     padding: 0;
-    background-color: darkgrey;
-    overflow: hidden;
     font-size: large;
-    
+    width: 100%;
 }
-nav li{
-    float:left;
-    
-}
-nav li a{
-    text-align: center;
+nav .nav-brand a{
     color: white;
     display: block;
     text-decoration: none;
     padding: 14px 16px;
-}
-nav .login{
-    float: right;
 }
 nav li :hover{
     background-color: gold;
@@ -54,4 +50,9 @@ input{
 }
 input.btn [type="submit"]:hover{
     background-color: indianred;
+}
+
+
+#links{
+    display: none;
 }
